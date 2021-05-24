@@ -80,7 +80,7 @@ const HomeCommunity = () => {
               color='textSecondary'
               className={classes.description}
             >
-              Community driven & fair lauch. 100% of the supply was airdropped to
+              Community driven & fair launch. 100% of the supply was airdropped to
               Dogen holders and the BullDoge team locked the initial liquidity forever.
             </Typography>
 

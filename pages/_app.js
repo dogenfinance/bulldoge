@@ -6,6 +6,7 @@ import { ThemeProvider } from '@material-ui/core/styles'
 import Layout from 'Layout'
 import BullWeb3Provider from 'utils/hocs/BullWeb3Provider'
 import { PopupProvider } from 'contexts/popup-context'
+import { StatsProvider } from 'contexts/stats-context'
 import * as COMMON_CONSTANTS from 'utils/constants/common'
 import { BANNER_IMAGE_PATH } from 'utils/constants/image-paths'
 import theme from 'styles/theme'
@@ -44,12 +45,14 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <BullWeb3Provider>
         <ThemeProvider theme={theme}>
-          <PopupProvider>
-            <CssBaseline />
-            <Layout>
-              <Component {...pageProps} />
-            </Layout>
-          </PopupProvider>
+          <StatsProvider>
+            <PopupProvider>
+              <CssBaseline />
+              <Layout>
+                <Component {...pageProps} />
+              </Layout>
+            </PopupProvider>
+          </StatsProvider>
         </ThemeProvider>
       </BullWeb3Provider>
     </>

@@ -6,7 +6,7 @@ const SOCIALS = Object.freeze({
     ICON: '/assets/images/socials/coinmarketcap.png'
   },
   TELEGRAM: {
-    HREF: 't.me/bulldogetoken',
+    HREF: 'https://t.me/bulldogetoken',
     LABEL: 'telegram link',
     ICON: '/assets/images/socials/telegram.png'
   },
@@ -26,7 +26,7 @@ const SOCIALS = Object.freeze({
     ICON: '/assets/images/socials/github.png'
   },
   REDDIT: {
-    HREF: 'https://www.reddit.com',
+    HREF: 'http://reddit.com/r/bulldogetoken',
     LABEL: 'reddit link'
   },
   MAKE_LP: {

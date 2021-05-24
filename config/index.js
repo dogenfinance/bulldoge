@@ -1,15 +1,15 @@
 const IS_MAINNET = process.env.NETWORK === 'mainnet'
 
-const CHAIN_ID = IS_MAINNET ? 1 : 4;
-const CONTRACTS = IS_MAINNET
-  ? {
-    DOGEN: '0x17eb50FDD2995696eE82912a80a9766fCBb0ECcA',
-  } : {
-    DOGEN: '0x25dD97dD53f06b8a73C732FC262DB730E26862D6',
-  }
+const CHAIN_ID = 56;
+const CONTRACTS = {
+  DOGEN: '0xe71c62fc7197493b6e3634b861165bac548fca5e'
+}
+
+const READ_WEB3_PROVIDER = 'https://bsc-dataseed1.binance.org:443'
 
 export {
   IS_MAINNET,
   CHAIN_ID,
-  CONTRACTS
+  CONTRACTS,
+  READ_WEB3_PROVIDER
 }
