@@ -81,7 +81,7 @@ const HomeCommunity = () => {
               className={classes.description}
             >
               Community driven & fair lauch. 100% of the supply was airdropped to
-              DOGEN holders and the BullDoge team locked the initial liquidity forever.
+              Dogen holders and the BullDoge team locked the initial liquidity forever.
             </Typography>
 
             <Typography
@@ -94,8 +94,8 @@ const HomeCommunity = () => {
               color='textSecondary'
               className={classes.description}
             >
-              Every trade contributes towards automatically generating liquidity
-              that goes into multiple pools.
+              Every trade contributes towards automatically generating liquidity that
+              goes into multiple pools.
             </Typography>
 
             <Typography
@@ -122,8 +122,8 @@ const HomeCommunity = () => {
               color='textSecondary'
               className={classes.description}
             >
-              BullDoge holders support featured artists by staking BullDoge LP to earn
-              certifiably-rare quality digital 3D models of the BullDoge intended for
+              BullDoge holders support featured artists by staking BullDoge LP to
+              earn certifiably-rare quality digital 3D models of the BullDoge for
               use in VR.
             </Typography>
           </Grid>

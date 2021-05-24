@@ -33,8 +33,11 @@ const SOCIALS = Object.freeze({
     HREF: 'https://exchange.pancakeswap.finance/#/add/BNB/0xe71C62FC7197493b6e3634b861165bac548FCa5E'
   },
   PANCAKE_SWAP: {
-    HREF: 'https://exchange.pancakeswap.finance/#/swap'
+    HREF: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xe71c62fc7197493b6e3634b861165bac548fca5e'
   },
+  VIRGILS: {
+    HREF: 'https://virgils.io/'
+  }
 })
 
 export default SOCIALS;

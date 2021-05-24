@@ -50,6 +50,10 @@ const useStyles = makeStyles(theme => ({
       textAlign: 'center',
     },
   },
+  link: {
+    fontSize: 18,
+    color: theme.palette.text.secondary
+  },
   buttonContainer: {
     display: 'flex',
     [theme.breakpoints.down('sm')]: {
@@ -115,9 +119,12 @@ const HomeHeader = () => {
             color='textSecondary'
             className={classes.description}
           >
-            The BullDoge Protocol is a community driven, fair launched DeFi Token
-            with an NFT Farm where users stake BullDoge to get Rice and use Rice
-            to buy a limited-edition 3D NFT of a BullDoge intended for use in VR.
+            BullDoge is a community-driven, fair-launched DeFi Token. Stake BullDoge and
+            LP to farm Rice. Use Rice to buy 3D BullDoge NFTs. Import your 3D BullDoge
+            into your home in the VR metaverse on platforms like{' '}
+            <a href={SOCIALS.VIRGILS.HREF} target='_blank' rel='noreferrer' className={classes.link}>
+              Virgils
+            </a>.
           </Typography>
 
           <div className={classes.buttonContainer}>
