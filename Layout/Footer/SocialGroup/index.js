@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import TelegramIcon from 'components/Icons/TelegramIcon'
 import TwitterIcon from 'components/Icons/TwitterIcon'
 import MediumIcon from 'components/Icons/MediumIcon'
+import GithubIcon from 'components/Icons/GithubIcon'
 
 const useStyles = makeStyles((theme) => ({
   group: {
@@ -22,6 +23,7 @@ const SocialGroup = () => {
   return (
     <div className={classes.group}>
       <MediumIcon className={classes.socialIcon} />
+      <GithubIcon className={classes.socialIcon} />
       <TelegramIcon className={classes.socialIcon} />
       <TwitterIcon className={classes.socialIcon} />
     </div>

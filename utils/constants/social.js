@@ -21,7 +21,7 @@ const SOCIALS = Object.freeze({
     ICON: '/assets/images/socials/twitter.png'
   },
   GITHUB: {
-    HREF: 'https://github.com/thomashanahan/bulldoge-nft',
+    HREF: 'https://github.com/dogenfinance/ricefield/tree/master',
     LABEL: 'github link',
     ICON: '/assets/images/socials/github.png'
   },
