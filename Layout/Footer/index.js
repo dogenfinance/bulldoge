@@ -11,18 +11,12 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'center',
     padding: theme.spacing(4, 0, 2),
-    backgroundColor: theme.custom.palette.footer,
-    [theme.breakpoints.down('sm')]: {
-      flexDirection: 'column',
-    },
+    backgroundColor: theme.custom.palette.footer
   },
   container: {
     display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    [theme.breakpoints.down('sm')]: {
-      flexDirection: 'column'
-    }
+    justifyContent: 'center',
+    alignItems: 'center'
   },
 }));
 
