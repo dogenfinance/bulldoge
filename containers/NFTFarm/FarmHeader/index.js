@@ -40,7 +40,20 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     padding: theme.spacing(3),
     borderRadius: 16,
-    boxShadow: '3px 3px 42px 18px #FF9900'
+    boxShadow: '3px 3px 42px 18px #FF9900',
+    animationTimingFunction: 'ease-in-out',
+    animation: '$pulse 2.4s infinite'
+  },
+  '@keyframes pulse': {
+    '0%': {
+      boxShadow: '3px 3px 42px 18px #FF9900',
+    },
+    '50%': {
+      boxShadow: '3px 3px 42px -18px #FF9900',
+    },
+    '100%': {
+      boxShadow: '3px 3px 42px 18px #FF9900',
+    }
   },
   icon: {
     width: '100%',

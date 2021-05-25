@@ -8,6 +8,7 @@ const useStyles = makeStyles(theme => ({
     fontSize: 40,
     width: 47,
     height: 47,
+    lineHeight: 40,
     minWidth: 'unset',
     color: theme.custom.palette.white,
     border: `2px solid ${theme.custom.palette.white}`,
